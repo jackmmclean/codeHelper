@@ -1,0 +1,46 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node server.ts",
+    "devStart": "nodemon server.ts",
+	"test" : "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-mysql-session": "^2.1.6",
+    "express-session": "^1.17.2",
+    "g": "^2.0.1",
+    "mariadb2": "^0.1.0",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "peer": "^0.6.1",
+    "react-router-dom": "^5.2.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.1.2",
+    "socketio-file-upload": "^0.7.3",
+    "ts-node": "^10.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.7"
+  }
+}
